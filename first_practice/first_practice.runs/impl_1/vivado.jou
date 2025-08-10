@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sun Aug 10 11:21:40 2025
+# Process ID         : 22656
+# Current directory  : C:/work/github/FPGA_study/first_practice/first_practice.runs/impl_1
+# Command line       : vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file           : C:/work/github/FPGA_study/first_practice/first_practice.runs/impl_1/design_1_wrapper.vdi
+# Journal file       : C:/work/github/FPGA_study/first_practice/first_practice.runs/impl_1\vivado.jou
+# Running On         : EMBKSM
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-1255U
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16866 MB
+# Swap memory        : 6174 MB
+# Total Virtual      : 23040 MB
+# Available Virtual  : 6440 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
