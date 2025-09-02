@@ -1,0 +1,6 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\work\github\FPGA_study\UART\UART_Hello_World\UART_Hello_World_HW\export\UART_Hello_World_HW\sw\boot\fsbl.elf
+	C:\work\github\FPGA_study\UART\UART_Hello_World\hello_world\build\hello_world.elf
+}
