@@ -1,0 +1,22 @@
+Time resolution is 1 ps
+--- Calculator Testbench 시작 ---
+
+--- 1. 덧셈 테스트 (OP=00) ---
+Time=0 | A= 50, B=100, OP=00 | Result=  150, C_out=0
+Time=10000 | A=200, B=100, OP=00 | Result=   44, C_out=1
+
+--- 2. 뺄셈 테스트 (OP=01) ---
+Time=20000 | A=100, B= 30, OP=01 | Result=   70, C_out=1
+Time=30000 | A= 30, B=100, OP=01 | Result=  186, C_out=0
+
+--- 3. 곱셈 테스트 (OP=10) ---
+Time=40000 | A= 10, B= 15, OP=10 | Result=  150, C_out=0
+Time=50000 | A=100, B=100, OP=10 | Result=10000, C_out=0
+
+--- 4. 나눗셈 테스트 (OP=11) ---
+Time=60000 | A=100, B= 10, OP=11 | Result=   10, C_out=0
+Time=70000 | A=100, B=  9, OP=11 | Result=   11, C_out=0
+Time=80000 | A= 50, B=  0, OP=11 | Result=    X, C_out=0
+
+--- 모든 테스트 완료 ---
+$finish called at time : 110 ns : File "C:/work/github/FPGA_study/verilog_sim/verilog_sim.srcs/sim_1/imports/Verilog_Pratice/tb_calculater.v" Line 49
