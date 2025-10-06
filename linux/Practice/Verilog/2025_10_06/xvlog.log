@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/capybara/Practice/Verilog/2025_10_06/Counter.v" into library work
+INFO: [VRFC 10-311] analyzing module Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/capybara/Practice/Verilog/2025_10_06/tb_clock_generator_counter.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_clock_generator_counter

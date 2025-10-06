@@ -1,0 +1,1 @@
+"tb_clock_generator_counter" -debug "wave" -s "counter_sim" 

@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# xsim v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Oct  6 18:04:44 2025
+# Process ID         : 9781
+# Current directory  : /home/capybara/Practice/Verilog/2025_10_06
+# Command line       : xsim -source {xsim.dir/counter_sim/xsim_script.tcl}
+# Log file           : /home/capybara/Practice/Verilog/2025_10_06/xsim.log
+# Journal file       : /home/capybara/Practice/Verilog/2025_10_06/xsim.jou
+# Running On         : EMBKSM
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.3 LTS
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-1255U
+# CPU Frequency      : 2611.210 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 8175 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 10323 MB
+# Available Virtual  : 9550 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/counter_sim/xsim_script.tcl
+create_wave_config
+run all
+close_sim

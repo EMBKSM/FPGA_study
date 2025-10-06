@@ -1,0 +1,3 @@
+xvlog dut_test.v tb_clock_generator.v
+xelab tb_clock_generator -debug wave -s first_verilog_sim
+xsim first_verilog_sim -gui
