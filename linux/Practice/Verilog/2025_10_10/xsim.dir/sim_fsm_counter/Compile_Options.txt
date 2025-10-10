@@ -1,0 +1,1 @@
+"tb_fsm_counter" -debug "wave" -s "sim_fsm_counter" 

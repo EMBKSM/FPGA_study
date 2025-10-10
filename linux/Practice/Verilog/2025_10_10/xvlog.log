@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/capybara/Practice/Verilog/2025_10_10/fsm_counter.v" into library work
+INFO: [VRFC 10-311] analyzing module fsm_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/capybara/Practice/Verilog/2025_10_10/tb_fsm_counter.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_fsm_counter
