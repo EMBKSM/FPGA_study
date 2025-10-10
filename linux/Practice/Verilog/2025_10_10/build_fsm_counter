@@ -1,0 +1,3 @@
+xvlog fsm_counter.v tb_fsm_counter.v
+xelab tb_fsm_counter -debug wave -s sim_fsm_counter
+xsim sim_fsm_counter -gui 
