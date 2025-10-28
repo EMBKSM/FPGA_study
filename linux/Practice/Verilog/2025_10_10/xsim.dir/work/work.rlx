@@ -1,0 +1,8 @@
+0.7
+2020.2
+May 21 2025
+22:59:56
+/home/capybara/Practice/Verilog/2025_10_10/fsm.v,1760042082,verilog,,,,fsm_test,,,,,,,,
+/home/capybara/Practice/Verilog/2025_10_10/fsm_counter.v,1760045553,verilog,,/home/capybara/Practice/Verilog/2025_10_10/tb_fsm_counter.v,,fsm_counter,,,,,,,,
+/home/capybara/Practice/Verilog/2025_10_10/tb_clock_fsm_test.v,1760042292,verilog,,/home/capybara/Practice/Verilog/2025_10_10/fsm.v,,tb_fsm_test,,,,,,,,
+/home/capybara/Practice/Verilog/2025_10_10/tb_fsm_counter.v,1760044746,verilog,,,,tb_fsm_counter,,,,,,,,

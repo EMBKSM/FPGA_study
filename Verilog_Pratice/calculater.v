@@ -1,3 +1,7 @@
+
+
+
+
 `include "fulladder.v"
 `include "multiplier.v"
 `include "divider.v"
@@ -34,6 +38,7 @@ module calculator #(
             );
         end
     endgenerate
+    
     assign add_sub_C_out = c_wires[N];
 
     multiplier #(.N(N)) u_mul (.A(A), .B(B), .P(mul_P));

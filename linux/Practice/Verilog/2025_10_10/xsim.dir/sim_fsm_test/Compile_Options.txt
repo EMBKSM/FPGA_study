@@ -1,0 +1,1 @@
+"tb_fsm_test" -debug "wave" -s "sim_fsm_test" 

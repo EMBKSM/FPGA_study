@@ -1,0 +1,3 @@
+xvlog tb_clock_fsm_test.v fsm.v
+xelab tb_fsm_test -debug wave -s sim_fsm_test
+xsim sim_fsm_test -gui

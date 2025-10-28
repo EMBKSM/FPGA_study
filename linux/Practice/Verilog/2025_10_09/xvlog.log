@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/capybara/Practice/Verilog/2025_10_09/pipeline.v" into library work
+INFO: [VRFC 10-311] analyzing module Pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/capybara/Practice/Verilog/2025_10_09/tb_clock_pipeline.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_clock_pipeline

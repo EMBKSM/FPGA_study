@@ -1,0 +1,213 @@
+#-----------------------------------------------------------
+# xsim v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Oct  6 18:04:44 2025
+# Process ID         : 9781
+# Current directory  : /home/capybara/Practice/Verilog/2025_10_06
+# Command line       : xsim -source {xsim.dir/counter_sim/xsim_script.tcl}
+# Log file           : /home/capybara/Practice/Verilog/2025_10_06/xsim.log
+# Journal file       : /home/capybara/Practice/Verilog/2025_10_06/xsim.jou
+# Running On         : EMBKSM
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.3 LTS
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-1255U
+# CPU Frequency      : 2611.210 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 8175 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 10323 MB
+# Available Virtual  : 9550 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/emb-plus-vpr-4616/1.0/board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/emb-plus-vpr-4616/1.1/board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.7 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.7/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/scu35/1.0/board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/v80/1.0/board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.5 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.5/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.4/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.3 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek385/1.0/board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.2/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.3 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.3/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /home/capybara/tools/Xilinx/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+source xsim.dir/counter_sim/xsim_script.tcl
+# set_param project.enableReportConfiguration 0
+# load_feature core
+# current_fileset
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/capybara/tools/Xilinx/2025.1/Vivado/data/ip'.
+# xsim {counter_sim} -autoloadwcfg
+Time resolution is 1 ps
+create_wave_config
+run all
+Time = 0, reset = 1, clock = 0, counting =          x
+Time = 5000, reset = 1, clock = 1, counting =          0
+Time = 10000, reset = 0, clock = 0, counting =          0
+Time = 15000, reset = 0, clock = 1, counting =          1
+Time = 20000, reset = 0, clock = 0, counting =          1
+Time = 25000, reset = 0, clock = 1, counting =          2
+Time = 30000, reset = 0, clock = 0, counting =          2
+Time = 35000, reset = 0, clock = 1, counting =          3
+Time = 40000, reset = 0, clock = 0, counting =          3
+Time = 45000, reset = 0, clock = 1, counting =          4
+Time = 50000, reset = 0, clock = 0, counting =          4
+Time = 55000, reset = 0, clock = 1, counting =          5
+Time = 60000, reset = 0, clock = 0, counting =          5
+Time = 65000, reset = 0, clock = 1, counting =          6
+Time = 70000, reset = 0, clock = 0, counting =          6
+Time = 75000, reset = 0, clock = 1, counting =          7
+Time = 80000, reset = 0, clock = 0, counting =          7
+Time = 85000, reset = 0, clock = 1, counting =          8
+Time = 90000, reset = 0, clock = 0, counting =          8
+Time = 95000, reset = 0, clock = 1, counting =          9
+Time = 100000, reset = 0, clock = 0, counting =          9
+Time = 105000, reset = 0, clock = 1, counting =         10
+Time = 110000, reset = 0, clock = 0, counting =         10
+Time = 115000, reset = 0, clock = 1, counting =         11
+Time = 120000, reset = 0, clock = 0, counting =         11
+Time = 125000, reset = 0, clock = 1, counting =         12
+Time = 130000, reset = 0, clock = 0, counting =         12
+Time = 135000, reset = 0, clock = 1, counting =         13
+Time = 140000, reset = 0, clock = 0, counting =         13
+Time = 145000, reset = 0, clock = 1, counting =         14
+Time = 150000, reset = 0, clock = 0, counting =         14
+Time = 155000, reset = 0, clock = 1, counting =         15
+Time = 160000, reset = 0, clock = 0, counting =         15
+Time = 165000, reset = 0, clock = 1, counting =         16
+Time = 170000, reset = 0, clock = 0, counting =         16
+Time = 175000, reset = 0, clock = 1, counting =         17
+Time = 180000, reset = 0, clock = 0, counting =         17
+Time = 185000, reset = 0, clock = 1, counting =         18
+Time = 190000, reset = 0, clock = 0, counting =         18
+Time = 195000, reset = 0, clock = 1, counting =         19
+Time = 200000, reset = 0, clock = 0, counting =         19
+Time = 205000, reset = 0, clock = 1, counting =         20
+Time = 210000, reset = 0, clock = 0, counting =         20
+Time = 215000, reset = 0, clock = 1, counting =         21
+Time = 220000, reset = 0, clock = 0, counting =         21
+Time = 225000, reset = 0, clock = 1, counting =         22
+Time = 230000, reset = 0, clock = 0, counting =         22
+Time = 235000, reset = 0, clock = 1, counting =         23
+Time = 240000, reset = 0, clock = 0, counting =         23
+Time = 245000, reset = 0, clock = 1, counting =         24
+Time = 250000, reset = 0, clock = 0, counting =         24
+Time = 255000, reset = 0, clock = 1, counting =         25
+Time = 260000, reset = 0, clock = 0, counting =         25
+Time = 265000, reset = 0, clock = 1, counting =         26
+Time = 270000, reset = 0, clock = 0, counting =         26
+Time = 275000, reset = 0, clock = 1, counting =         27
+Time = 280000, reset = 0, clock = 0, counting =         27
+Time = 285000, reset = 0, clock = 1, counting =         28
+Time = 290000, reset = 0, clock = 0, counting =         28
+Time = 295000, reset = 0, clock = 1, counting =         29
+Time = 300000, reset = 0, clock = 0, counting =         29
+Time = 305000, reset = 0, clock = 1, counting =         30
+Time = 310000, reset = 0, clock = 0, counting =         30
+Time = 315000, reset = 0, clock = 1, counting =         31
+Time = 320000, reset = 0, clock = 0, counting =         31
+Time = 325000, reset = 0, clock = 1, counting =         32
+Time = 330000, reset = 0, clock = 0, counting =         32
+Time = 335000, reset = 0, clock = 1, counting =         33
+Time = 340000, reset = 0, clock = 0, counting =         33
+Time = 345000, reset = 0, clock = 1, counting =         34
+Time = 350000, reset = 0, clock = 0, counting =         34
+Time = 355000, reset = 0, clock = 1, counting =         35
+Time = 360000, reset = 0, clock = 0, counting =         35
+Time = 365000, reset = 0, clock = 1, counting =         36
+Time = 370000, reset = 0, clock = 0, counting =         36
+Time = 375000, reset = 0, clock = 1, counting =         37
+Time = 380000, reset = 0, clock = 0, counting =         37
+Time = 385000, reset = 0, clock = 1, counting =         38
+Time = 390000, reset = 0, clock = 0, counting =         38
+Time = 395000, reset = 0, clock = 1, counting =         39
+Time = 400000, reset = 0, clock = 0, counting =         39
+Time = 405000, reset = 0, clock = 1, counting =         40
+Time = 410000, reset = 0, clock = 0, counting =         40
+Time = 415000, reset = 0, clock = 1, counting =         41
+Time = 420000, reset = 0, clock = 0, counting =         41
+Time = 425000, reset = 0, clock = 1, counting =         42
+Time = 430000, reset = 0, clock = 0, counting =         42
+Time = 435000, reset = 0, clock = 1, counting =         43
+Time = 440000, reset = 0, clock = 0, counting =         43
+Time = 445000, reset = 0, clock = 1, counting =         44
+Time = 450000, reset = 0, clock = 0, counting =         44
+Time = 455000, reset = 0, clock = 1, counting =         45
+Time = 460000, reset = 0, clock = 0, counting =         45
+Time = 465000, reset = 0, clock = 1, counting =         46
+Time = 470000, reset = 0, clock = 0, counting =         46
+Time = 475000, reset = 0, clock = 1, counting =         47
+Time = 480000, reset = 0, clock = 0, counting =         47
+Time = 485000, reset = 0, clock = 1, counting =         48
+Time = 490000, reset = 0, clock = 0, counting =         48
+Time = 495000, reset = 0, clock = 1, counting =         49
+Time = 500000, reset = 0, clock = 0, counting =         49
+Time = 505000, reset = 0, clock = 1, counting =         50
+$finish called at time : 510 ns : File "/home/capybara/Practice/Verilog/2025_10_06/tb_clock_generator_counter.v" Line 26
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Oct  6 18:19:56 2025...

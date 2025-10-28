@@ -1,0 +1,3 @@
+xvlog pipeline.v tb_clock_pipeline.v
+xelab tb_clock_pipeline -debug wave -s sim_pipeline
+xsim sim_pipeline -gui
