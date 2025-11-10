@@ -3,8 +3,8 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Tue Oct 28 22:36:45 2025
-# Process ID         : 14940
+# Start of session at: Wed Oct 29 08:18:34 2025
+# Process ID         : 29348
 # Current directory  : C:/work/github/FPGA_study/traffic_light/traffic_light.runs/synth_1
 # Command line       : vivado.exe -log traffic_light_fsm.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source traffic_light_fsm.tcl
 # Log file           : C:/work/github/FPGA_study/traffic_light/traffic_light.runs/synth_1/traffic_light_fsm.vds
@@ -19,6 +19,6 @@
 # Host memory        : 16866 MB
 # Swap memory        : 6174 MB
 # Total Virtual      : 23040 MB
-# Available Virtual  : 8077 MB
+# Available Virtual  : 7576 MB
 #-----------------------------------------------------------
 source traffic_light_fsm.tcl -notrace

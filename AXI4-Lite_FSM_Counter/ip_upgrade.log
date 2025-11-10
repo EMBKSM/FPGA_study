@@ -1,0 +1,84 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Mon Nov 10 22:18:33 2025
+| Host         : EMBKSM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Counter_counter_general_ip_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Counter_counter_general_ip_0_0 (xilinx.com:user:counter_general_ip:1.0) from (Rev. 4) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'Counter_counter_general_ip_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'state'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Mon Nov 10 20:09:13 2025
+| Host         : EMBKSM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Counter_counter_general_ip_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Counter_counter_general_ip_0_0 (xilinx.com:user:counter_general_ip:1.0) from (Rev. 3) to (Rev. 4)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'Counter_counter_general_ip_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'i_counter_status'
+
+-Upgrade has added port 'o_counter_run'
+
+-Upgrade has added port 'o_counter_value'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Mon Nov 10 19:57:57 2025
+| Host         : EMBKSM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Counter_counter_general_ip_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Counter_counter_general_ip_0_0 (xilinx.com:user:counter_general_ip:1.0) from (Rev. 2) to (Rev. 3)
+

@@ -38,7 +38,7 @@ module traffic_light_fsm(
     reg [31:0] cnt;
     
     always @(posedge clk) begin
-        if(!rst) begin
+        if(rst) begin
             current_state <= RED;
             cnt <= 32'b0;
         end else begin

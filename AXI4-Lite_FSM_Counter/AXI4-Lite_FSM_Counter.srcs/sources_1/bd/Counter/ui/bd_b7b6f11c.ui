@@ -1,0 +1,18 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.980728",
+   "Default View_TopLeft":"-288,-672",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace inst counter_general_ip_0 -pg 1 -lvl 2 -x 480 -y -300 -defaultsOSRD
+preplace inst counter_fsm_0 -pg 1 -lvl 1 -x 150 -y -570 -defaultsOSRD
+preplace netloc counter_fsm_0_o_status_reg 1 1 1 310 -580n
+preplace netloc counter_fsm_0_state 1 1 1 300 -560n
+preplace netloc counter_general_ip_0_o_counter_value 1 0 3 -10 -400 NJ -400 660
+preplace netloc counter_general_ip_0_o_counter_run 1 0 3 0 -410 NJ -410 650
+levelinfo -pg 1 -30 150 480 680
+pagesize -pg 1 -db -bbox -sgen -30 -660 680 200
+"
+}
+0

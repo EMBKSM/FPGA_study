@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Tue Oct 28 22:38:32 2025
+| Date         : Wed Oct 29 08:20:56 2025
 | Host         : EMBKSM running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -routable_nets -report_unconstrained -file traffic_light_fsm_timing_summary_routed.rpt -pb traffic_light_fsm_timing_summary_routed.pb -rpx traffic_light_fsm_timing_summary_routed.rpx -warn_on_violation
 | Design       : traffic_light_fsm
@@ -1730,9 +1730,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 r  rst_IBUF_inst/O
                          net (fo=3, routed)           2.498     3.983    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.124     4.107 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.819     4.926    cnt[0]_i_1_n_0
@@ -1770,9 +1770,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 r  rst_IBUF_inst/O
                          net (fo=3, routed)           2.498     3.983    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.124     4.107 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.819     4.926    cnt[0]_i_1_n_0
@@ -1810,9 +1810,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 r  rst_IBUF_inst/O
                          net (fo=3, routed)           2.498     3.983    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.124     4.107 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.819     4.926    cnt[0]_i_1_n_0
@@ -1850,9 +1850,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 r  rst_IBUF_inst/O
                          net (fo=3, routed)           2.498     3.983    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.124     4.107 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.819     4.926    cnt[0]_i_1_n_0
@@ -1890,9 +1890,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 r  rst_IBUF_inst/O
                          net (fo=3, routed)           2.498     3.983    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.124     4.107 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.714     4.821    cnt[0]_i_1_n_0
@@ -1930,9 +1930,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 r  rst_IBUF_inst/O
                          net (fo=3, routed)           2.498     3.983    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.124     4.107 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.714     4.821    cnt[0]_i_1_n_0
@@ -1970,9 +1970,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 r  rst_IBUF_inst/O
                          net (fo=3, routed)           2.498     3.983    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.124     4.107 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.714     4.821    cnt[0]_i_1_n_0
@@ -2010,9 +2010,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 r  rst_IBUF_inst/O
                          net (fo=3, routed)           2.498     3.983    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.124     4.107 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.714     4.821    cnt[0]_i_1_n_0
@@ -2050,9 +2050,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 r  rst_IBUF_inst/O
                          net (fo=3, routed)           2.498     3.983    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.124     4.107 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.680     4.787    cnt[0]_i_1_n_0
@@ -2090,9 +2090,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         1.485     1.485 r  rst_IBUF_inst/O
                          net (fo=3, routed)           2.498     3.983    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.124     4.107 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.680     4.787    cnt[0]_i_1_n_0
@@ -2131,9 +2131,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 r  rst (IN)
+    P16                                               0.000     0.000 f  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 r  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 f  rst_IBUF_inst/O
                          net (fo=3, routed)           0.975     1.228    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I5_O)        0.045     1.273 r  FSM_sequential_current_state[0]_i_1/O
                          net (fo=1, routed)           0.000     1.273    FSM_sequential_current_state[0]_i_1_n_0
@@ -2166,9 +2166,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 r  rst (IN)
+    P16                                               0.000     0.000 f  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 r  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 f  rst_IBUF_inst/O
                          net (fo=3, routed)           0.980     1.233    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I5_O)        0.045     1.278 r  FSM_sequential_current_state[1]_i_1/O
                          net (fo=1, routed)           0.000     1.278    FSM_sequential_current_state[1]_i_1_n_0
@@ -2201,9 +2201,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 r  rst_IBUF_inst/O
                          net (fo=3, routed)           0.972     1.225    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.045     1.270 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.160     1.429    cnt[0]_i_1_n_0
@@ -2236,9 +2236,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 r  rst_IBUF_inst/O
                          net (fo=3, routed)           0.972     1.225    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.045     1.270 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.160     1.429    cnt[0]_i_1_n_0
@@ -2271,9 +2271,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 r  rst_IBUF_inst/O
                          net (fo=3, routed)           0.972     1.225    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.045     1.270 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.160     1.429    cnt[0]_i_1_n_0
@@ -2306,9 +2306,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 r  rst_IBUF_inst/O
                          net (fo=3, routed)           0.972     1.225    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.045     1.270 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.160     1.429    cnt[0]_i_1_n_0
@@ -2341,9 +2341,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 r  rst_IBUF_inst/O
                          net (fo=3, routed)           0.972     1.225    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.045     1.270 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.215     1.485    cnt[0]_i_1_n_0
@@ -2376,9 +2376,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 r  rst_IBUF_inst/O
                          net (fo=3, routed)           0.972     1.225    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.045     1.270 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.215     1.485    cnt[0]_i_1_n_0
@@ -2411,9 +2411,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 r  rst_IBUF_inst/O
                          net (fo=3, routed)           0.972     1.225    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.045     1.270 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.215     1.485    cnt[0]_i_1_n_0
@@ -2446,9 +2446,9 @@ Slack:                    inf
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    P16                                               0.000     0.000 f  rst (IN)
+    P16                                               0.000     0.000 r  rst (IN)
                          net (fo=0)                   0.000     0.000    rst
-    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 f  rst_IBUF_inst/O
+    P16                  IBUF (Prop_ibuf_I_O)         0.252     0.252 r  rst_IBUF_inst/O
                          net (fo=3, routed)           0.972     1.225    rst_IBUF
     SLICE_X112Y101       LUT6 (Prop_lut6_I0_O)        0.045     1.270 r  cnt[0]_i_1/O
                          net (fo=32, routed)          0.215     1.485    cnt[0]_i_1_n_0

@@ -1,0 +1,61 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../AXI4-Lite_FSM_Counter.gen/sources_1/bd/Counter",
+      "name": "Counter",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2025.1"
+    },
+    "design_tree": {
+      "counter_general_ip_0": "",
+      "counter_fsm_0": ""
+    },
+    "components": {
+      "counter_general_ip_0": {
+        "vlnv": "xilinx.com:user:counter_general_ip:1.0",
+        "ip_revision": "5",
+        "xci_name": "Counter_counter_general_ip_0_0",
+        "xci_path": "ip\\Counter_counter_general_ip_0_0\\Counter_counter_general_ip_0_0.xci",
+        "inst_hier_path": "counter_general_ip_0",
+        "has_run_ip_tcl": "true"
+      },
+      "counter_fsm_0": {
+        "vlnv": "xilinx.com:user:counter_fsm:1.0",
+        "ip_revision": "2",
+        "xci_name": "Counter_counter_fsm_0_0",
+        "xci_path": "ip\\Counter_counter_fsm_0_0\\Counter_counter_fsm_0_0.xci",
+        "inst_hier_path": "counter_fsm_0",
+        "has_run_ip_tcl": "true"
+      }
+    },
+    "nets": {
+      "counter_fsm_0_o_status_reg": {
+        "ports": [
+          "counter_fsm_0/o_status_reg",
+          "counter_general_ip_0/i_counter_status"
+        ]
+      },
+      "counter_fsm_0_state": {
+        "ports": [
+          "counter_fsm_0/state",
+          "counter_general_ip_0/state"
+        ]
+      },
+      "counter_general_ip_0_o_counter_run": {
+        "ports": [
+          "counter_general_ip_0/o_counter_run",
+          "counter_fsm_0/i_run"
+        ]
+      },
+      "counter_general_ip_0_o_counter_value": {
+        "ports": [
+          "counter_general_ip_0/o_counter_value",
+          "counter_fsm_0/i_max_count"
+        ]
+      }
+    }
+  }
+}
