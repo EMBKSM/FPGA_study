@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\work\github\FPGA_study\AXI4-Lite_BRAM_SW\AXI4-Lite_BRAM_platform\zynq_fsbl\build\fsbl.elf
+	C:\work\github\FPGA_study\AXI4-lite_BRAM_HW\AXI4-lite_BRAM_HW.runs\impl_1\design_1_wrapper.bit
+	C:\work\github\FPGA_study\AXI4-Lite_BRAM_SW\firmware\build\firmware.elf
+}

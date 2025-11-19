@@ -1,0 +1,4 @@
+domain_path: C:\work\github\FPGA_study\AXI4-Lite_BRAM_SW\AXI4-Lite_BRAM_platform\zynq_fsbl\zynq_fsbl_bsp
+app_src_dir: C:\Xilinx\2025.1\Vitis\data\embeddedsw\lib\sw_apps\zynq_fsbl
+template: zynq_fsbl
+lang: c

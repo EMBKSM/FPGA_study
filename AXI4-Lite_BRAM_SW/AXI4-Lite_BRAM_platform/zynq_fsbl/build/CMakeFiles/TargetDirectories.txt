@@ -1,0 +1,3 @@
+C:/work/github/FPGA_study/AXI4-Lite_BRAM_SW/AXI4-Lite_BRAM_platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+C:/work/github/FPGA_study/AXI4-Lite_BRAM_SW/AXI4-Lite_BRAM_platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+C:/work/github/FPGA_study/AXI4-Lite_BRAM_SW/AXI4-Lite_BRAM_platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir
